@@ -1,0 +1,5 @@
+    <mj-section background-color="#FFFFFF">
+      <mj-column background-color="#FFFFFF">
+        <mj-image width="75px" height="95px" padding="0" src="https://cdn.spiritskiosk.com/logos/150w/full-logo.png" href="https://spiritskiosk.com/" />
+      </mj-column>
+    </mj-section>

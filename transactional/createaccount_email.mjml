@@ -1,0 +1,25 @@
+<mjml>
+  <mj-head>
+    <mj-title>Spirits Kiosk</mj-title>
+    <mj-include path="./../shared/head.mjml" />
+    <mj-preview>You have a new message from Spirits Kiosk</mj-preview>
+  </mj-head>
+  <mj-body>
+
+    <mj-include path="./../shared/header.mjml" />
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text>
+          <h1>Thank you</h1>
+          <p>You're now registered and have an account with Spirits Kiosk with your email address %%GLOBAL_Email%%. Welcome!</p>
+          <p></p>
+          <p>If you did not request for an account to be created, or you need any help at all, please <a href="mailto:hello@spiritskiosk.com">email us</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./../shared/footer.mjml" />
+
+  </mj-body>
+</mjml>

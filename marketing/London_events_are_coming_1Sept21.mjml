@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-title>Our London events are coming!</mj-title>
+    <mj-include path="./head.mjml" />
+    <mj-preview>Junipalooza and La Piñata are a few weeks away – have you got your tickets?</mj-preview>
+  </mj-head>
+  <mj-body>
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text align="justify">
+          <p>Hello Spirit Society members!</p>
+          <p>London event season is finally upon us and with it, the long-awaited return of Junipalooza and the launch of La Piñata.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/dbb9f4c2506ba972e33e27fb8a1ddf629bcdb6b7.jpeg" alt="" href="https://www.spiritssociety.com/" />
+      </mj-column>
+      <mj-column>
+        <mj-text align="justify">
+          <p>We’re now only a few weeks away from our London show, happening over the 18th & 19th September. Not only are there many new distilleries to Junipalooza, almost every exhibitor has a new gin in their range, meaning that both old favourites and recent start-ups will be full of exciting flavours to discover.</p>
+          <p>If you’ve had FOMO seeing them all appear online but haven’t had the opportunity to taste them, now is your chance to try dozens! 60 stands, over 200 gins and a weekend of fun. JUNIPALOOZA. IS. BACK. </p>
+        </mj-text>
+        <mj-button href="https://www.spiritssociety.com/">SEE MORE HERE</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF" direction="rtl">
+      <mj-column>
+        <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/ca23559d793c87865ff540ca6a22452e1a5a221a.jpeg" alt="" href="https://www.spiritssociety.com/" />
+      </mj-column>
+      <mj-column>
+        <mj-text align="justify">
+          <p>The following weekend, we’re hosting our inaugural La Piñata event.</p>
+          <p>With dozens of producers representing over 60 different Tequilas, La Piñata is the perfect way to introduce yourself to the world of Tequila and Mezcal. </p>
+          <p>You’ll be able to taste through Blancos, Reposados and Añejos and find a style that suits you. You’ll learn that Mezcal is more than being smokey and get to delve into different agave varieties such as Espadin and Tobala as well as age old production techniques.</p>
+          <p>This celebration of Tequila offers a unique chance to quench your curiosity about the spirit.</p>
+        </mj-text>
+        <mj-button href="https://www.spiritssociety.com/">JOIN US HERE</mj-button>
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,67 @@
+<mjml>
+  <mj-head>
+    <mj-title>Junipalooza Returns!</mj-title>
+    <mj-include path="./head.mjml" />
+    <mj-preview>Book your place - Tickets for Junipalooza London are now live. </mj-preview>
+  </mj-head>
+  <mj-body>
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section background-color="#FFF">
+        <mj-column>
+            <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/772f8d748d127c7159de8cc5e711e08b745b5df5.jpeg" alt="Junipalooza and La Pinata 2022" href="https://junipalooza-london-2022.eventbrite.co.uk" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text align="justify">
+          <p>Tickets are now live! <a href="https://junipalooza-london-2022.eventbrite.co.uk"><strong>Junipalooza</strong></a> will be back at Tobacco Dock over World Gin Day weekend, the 11th and 12th of June</p>
+          <p>Why book ahead? It’s simple, there’ll be lots of incredible gin. Over 300 expressions kind of lots, from 60+ distilleries. </p>
+          <p>As a meet the maker event, you’ll get to meet some of the biggest names of the category - responsible for some of the most iconic gins in the world. There are international teams who fly into to say hello in person, local favourites representing, established brands with big ranges and some of the smallest operations just starting out of their kitchens. It’s a weekend of big dreams, big flavours and a lot of fun.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/97e2b1e7b0a76942dee75bcb9e0635da08b19793.jpeg" alt="" href="https://junipalooza-london-2022.eventbrite.co.uk" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text align="justify">
+          <p>This year, expect to see a few big changes! Almost half of the exhibitors will be building their own spaces, bringing to life their brands in unique and immersive ways. </p>
+          <p>Free to attend masterclasses will be back, there’s much bigger space for the Newcomers area and there’s a shift we’ve wanted to do for years - we’ve finally been allowed to bring in our own food operators so we will be hosting an independent food court and lounge with music and seating. </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+        <mj-column>
+          <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/69a13e2eb212ba43ec70c991d1952d602e91f8cb.jpeg" alt="" href="https://junipalooza-london-2022.eventbrite.co.uk" />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#FFF">
+        <mj-column>
+          <mj-text align="justify">
+            <p>We’re also introducing a few perks when it comes to our tickets too. As a thank you to all those who like to come to multiple sessions, we are making a “Weekender” ticket available, which includes a pass for the Saturday AM and the Sunday Sessions at an even better price. </p>
+            <p>Each ticket will now also include a £5 discount code to use against any gin at Spirits Kiosk, during or after the event.</p>
+            <p>We hope to see you there!</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#FFF">
+        <mj-column>
+          <mj-button href="https://junipalooza-london-2022.eventbrite.co.uk">BOOK YOUR TICKETS NOW</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+</mjml>

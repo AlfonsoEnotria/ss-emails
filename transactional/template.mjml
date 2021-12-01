@@ -1,0 +1,306 @@
+<mjml>
+  <mj-head>
+    <mj-title>The Great Wine Co.</mj-title>
+    <mj-font name="Cormorant" href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap" />
+    <mj-font name="Source Sans Pro" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" />
+    <mj-attributes>
+      <mj-all text-transform="none" font-family="'Source Sans Pro', Arial, Helvetica, sans-serif" font-size="16px" line-height="1.2" color="#435159" />
+      <mj-button background-color="#98A85A" color="#FFF" border-radius="0" padding="0 25px 10px" />
+      <mj-navbar-link padding="20px 20px" />
+      <mj-social padding="0" inner-padding="0 0 0 10px" icon-size="30px" align="right" border-radius="0" />
+      <mj-social-element color="#FFF" />
+      <mj-class name="hero-text" color="#FFF" font-family="Cormorant" font-size="32px" />
+      <mj-class name="usp-row" background-color="#A53051" padding="0" />
+      <mj-class name="usp-row-block" color="#FFF" align="center" />
+      <mj-class name="full-width" width="100%" />
+      <mj-class name="top" padding-top="0" margin-top="0" />
+      <mj-class name="link-button" background-color="transparent" color="#435159" border-bottom="3px solid #A53051" inner-padding="0 0 5px" margin="0" align="left" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+    <mj-style inline="inline">
+      @media all and (max-width: 600px) {
+        .nav {
+          display: none;
+        }
+      }
+
+      a {
+        color: #657684;
+      }
+
+      .product-name a {
+        color: #435159;
+        text-decoration: none;
+      }
+
+      .price-was {
+        font-size: 12px;
+      }
+
+      .price-save {
+        color: #A53051;
+      }
+
+      .price {
+        font-weight: bold;
+        font-size: 22px;
+      }
+
+      .price-single {
+        padding: 5px 5px 5px 0;
+      }
+
+      .price-multibuy {
+        padding: 5px;
+        background: #F2D884;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: 'Cormorant', Garamond, 'Times New Roman', Serif;
+        font-weight: normal;
+        margin-top: 0;
+      }
+
+      .header-panel a {
+        text-decoration: none;
+        border-bottom: 3px solid #A53051;
+        padding: 0 0 5px;
+      }
+
+      .header-panel h4,
+      .header-panel h3,
+      .header-panel h42,
+      .header-panel h1,
+      .header-panel p {
+        line-height: 1;
+        margin: 10px 0;
+      }
+
+      a.usp-row-link {
+        color: #FFF;
+        text-decoration: none
+      }
+    </mj-style>
+    <mj-preview>You have a new message from The Great Wine Co.</mj-preview>
+  </mj-head>
+  <mj-body background-color="#435159">
+
+    <mj-section background-color="#435159">
+      <mj-column background-color="#435159">
+        <mj-image align="left" width="60px" height="60px" padding="0" src="https://" href="https://greatwine.co.uk/" />
+      </mj-column>
+      <mj-column background-color="#435159">
+        <mj-text color="#FFF" css-class="nav" align="right" padding="20px 0">
+          Wine &nbsp; &nbsp; &nbsp; &nbsp;
+          Offers &nbsp; &nbsp; &nbsp; &nbsp;
+          Spirits &nbsp; &nbsp; &nbsp; &nbsp;
+          Gifts &amp; More
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="150px 20px 10px" background-color="#98A85A" background-url="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/880w/carousel/74/Carousel_midsummer.jpg?c=2">
+      <mj-section>
+        <mj-column css-class="header-panel" width="70%" background-color="#FFF">
+          <mj-text padding="0 20px 10px">
+            <h4>h4. Header h4. Header h4. Header</h4>
+            <h1>h1. Header h1. Header h1. Header h1. Header h1. Header</h1>
+            <p><a href="">Shop now &nbsp;<strong>&#8250;</strong></p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="30%"></mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text>
+          <h1>h1. Header</h1>
+          <h2>h2. Header</h2>
+          <h3>h3. Header</h3>
+          <h4>h4. Header</h4>
+          <p>Paragraph. Like all trusty sidekicks we’ve looked after those bottles you chose so they’ll be waiting here when you visit us again. Having a battle with modern technology? Never fear, we all have those days. Give us a call on 01225 322810 and we can place the order for you.</p>
+          <p>This is a <a href="/">text link</a></p>
+
+        </mj-text>
+        <mj-button href="/">Button</mj-button>
+        <mj-button mj-class="full-width" href="/">full-width</mj-button>
+        <mj-button mj-class="link-button" href="/">link-button &nbsp;<strong>&#8250;</strong></mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column mj-class="product-column">
+        <mj-image width="160px" src="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/160w/products/8377/3794/apip07f7n__25134.1578538290.jpg?c=2" />
+        <mj-text mj-class="product">
+          <div class="product-name"><a href=""><strong>Product name goes here</strong><br>Producer</a></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat. Vivamus at dapibus ipsum. Nullam volutpat ac massa ut fermentum. Duis eget libero mauris. Phasellus erat ex, convallis ultrices eros.</p>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td class="price-single">
+              <div class="price-was">Was £XX.XX<br><span class="price-save">Save £XX.XX</span></div>
+              <div class="price">£XX.XX</div>
+            </td>
+            <td class="price-multibuy">
+              <div class="price-was">Multibuy<br>12+ bottles</div>
+              <div class="price">£XX.XX</div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="full-width" href="/">Buy</mj-button>
+      </mj-column>
+
+      <mj-column mj-class="product-column">
+        <mj-image width="160px" src="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/160w/products/8377/3794/apip07f7n__25134.1578538290.jpg?c=2" />
+        <mj-text mj-class="product">
+          <div class="product-name"><a href=""><strong>Product name goes here</strong><br>Producer</a></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat. Vivamus at dapibus ipsum. Nullam volutpat ac massa ut fermentum. Duis eget libero mauris. Phasellus erat ex, convallis ultrices eros.</p>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td class="price-single">
+              <div class="price-was">Was £XX.XX<br><span class="price-save">Save £XX.XX</span></div>
+              <div class="price">£XX.XX</div>
+            </td>
+            <td class="price-multibuy">
+              <div class="price-was">Multibuy<br>12+ bottles</div>
+              <div class="price">£XX.XX</div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="full-width" href="/">Buy</mj-button>
+      </mj-column>
+
+      <mj-column mj-class="product-column">
+        <mj-image width="160px" src="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/160w/products/8377/3794/apip07f7n__25134.1578538290.jpg?c=2" />
+        <mj-text mj-class="product">
+          <div class="product-name"><a href=""><strong>Product name goes here</strong><br>Producer</a></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat. Vivamus at dapibus ipsum. Nullam volutpat ac massa ut fermentum. Duis eget libero mauris. Phasellus erat ex, convallis ultrices eros.</p>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td class="price-single">
+              <div class="price-was">Was £XX.XX<br><span class="price-save">Save £XX.XX</span></div>
+              <div class="price">£XX.XX</div>
+            </td>
+            <td class="price-multibuy">
+              <div class="price-was">Multibuy<br>12+ bottles</div>
+              <div class="price">£XX.XX</div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="full-width" href="/">Buy</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column mj-class="product-column">
+        <mj-image width="160px" src="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/160w/products/8377/3794/apip07f7n__25134.1578538290.jpg?c=2" />
+        <mj-text mj-class="product">
+          <div class="product-name"><a href=""><strong>Product name goes here</strong><br>Producer</a></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat. Vivamus at dapibus ipsum. Nullam volutpat ac massa ut fermentum. Duis eget libero mauris. Phasellus erat ex, convallis ultrices eros.</p>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td class="price-single">
+              <div class="price-was">Was £XX.XX<br><span class="price-save">Save £XX.XX</span></div>
+              <div class="price">£XX.XX</div>
+            </td>
+            <td class="price-multibuy">
+              <div class="price-was">Multibuy<br>12+ bottles</div>
+              <div class="price">£XX.XX</div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="full-width" href="/">Buy</mj-button>
+      </mj-column>
+      <!-- Comment -->
+      <mj-column mj-class="product-column">
+        <mj-image width="160px" src="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/160w/products/8377/3794/apip07f7n__25134.1578538290.jpg?c=2" />
+        <mj-text mj-class="product">
+          <div class="product-name"><a href=""><strong>Product name goes here</strong><br>Producer</a></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat. Vivamus at dapibus ipsum. Nullam volutpat ac massa ut fermentum. Duis eget libero mauris. Phasellus erat ex, convallis ultrices eros.</p>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td class="price-single">
+              <div class="price-was">Was £XX.XX<br><span class="price-save">Save £XX.XX</span></div>
+              <div class="price">£XX.XX</div>
+            </td>
+            <td class="price-multibuy">
+              <div class="price-was">Multibuy<br>12+ bottles</div>
+              <div class="price">£XX.XX</div>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="full-width" href="/">Buy</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="usp-row">
+      <mj-column>
+        <mj-text mj-class="usp-row-block">
+          <a href="/" class="usp-row-link"><strong>Fast, Free Delivery</strong><br>when you spend over &pound;50</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="usp-row-block">
+          <a href="/" class="usp-row-link"><strong>Save 10%</strong><br>when you buy 12+ bottles</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-image src="https://www.online-image-editor.com//styles/2014/images/example_image.png" />
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="top">
+          <h2>h2. Header Header Header</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat. Vivamus at dapibus ipsum. Nullam volutpat ac massa ut fermentum. Duis eget libero mauris. Phasellus erat ex, convallis ultrices eros.</p>
+        </mj-text>
+        <mj-button mj-class="link-button" href="/">link-button &nbsp;<strong>&#8250;</strong></mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-wrapper padding="20px 10px" background-url="https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/880w/carousel/74/Carousel_midsummer.jpg?c=2">
+      <mj-section>
+        <mj-column css-class="header-panel" width="50%" background-color="#FFF">
+          <mj-text padding="15px 25px 5px">
+            <h2>Hello everybody</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis ipsum molestie, bibendum ante id, varius erat.</p>
+
+          </mj-text>
+          <mj-button mj-class="link-button" href="/">link-button &nbsp;<strong>&#8250;</strong></mj-button>
+        </mj-column>
+        <mj-column width="50%"></mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="#435159">
+      <mj-column width="10%">
+        <mj-image width="60px" height="60px" padding="0" src="https://res.cloudinary.com/enotria/image/upload/w_120,h_120,e_colorize:100,co_rgb:FFFFFF/GreatWineCo_gbkna7.gif" href="https://greatwine.co.uk/" />
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text color="#FFF" font-size="12px" padding-top="0">The Great Wine Co.<br>
+          Wells Road, Bath, BA2 3AP<br>
+          <a href="tel:+441225322810" style="color:#FFFFFF; text-decoration:none;">01225 322810</a><br>
+          <a href="/" style="color:#CCCCCC;">Unsubscribe</a></mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-social padding-right="0" align="right">
+          <mj-social-element name="facebook" background-color="#435159" href="https://www.facebook.com/GreatWesternWine" src="https://cdn.greatwesternwine.co.uk/email/facebook.png" />
+          <mj-social-element name="twitter" background-color="#435159" href="https://twitter.com/greatwestnwine" src="https://cdn.greatwesternwine.co.uk/email/twitter.png" />
+          <mj-social-element name="instagram" background-color="#435159" href="https://www.instagram.com/greatwesternwine/" src="https://cdn.greatwesternwine.co.uk/email/instagram.png" />
+        </mj-social>\
+        <mj-image align="right" padding-right="0" href="https://drinkaware.co.uk/" src="https://cdn.greatwesternwine.co.uk/email/drinkaware-logo-white.png" />
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

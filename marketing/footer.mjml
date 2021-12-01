@@ -1,0 +1,15 @@
+<mj-section background-color="#372346" full-width="full-width" css-class="footer" mj-class="footer">
+  <mj-column width="70%">
+    <mj-text color="#FFF" font-size="12px" padding-top="0">Enotria Winecellars Ltd T/A Spirits Society, 23 Cumberland Avenue, London, NW10 7RX<br>
+      <a href="tel:+442089615161" style="color:#FFFFFF; text-decoration:none;">020 8961 5161</a>&nbsp; | &nbsp;<a href="mailto:hello@spiritssociety.com" style="color:#FFFFFF">hello@spiritssociety.com</a><br>
+      &nbsp;<br><span style="color:#FFFFFF; text-decoration:none;">Can't see this email?</span> <a href="{$url}" style="text-decoration:underline; color:#ffffff;">Open in your browser.<br><br><a href="{$unsubscribe}" style="text-decoration:underline; color:#ffffff;">Unsubscribe here.</a>
+    </mj-text>
+  </mj-column>
+  <mj-column width="30%">
+    <mj-social align="right" padding="0 25px">
+      <mj-social-element name="facebook-noshare" background-color="#372346" href="https://www.facebook.com/spiritssociety" src="https://cdn.greatwesternwine.co.uk/email/facebook.png" />
+      <mj-social-element name="instagram" background-color="#372346" href="https://www.instagram.com/spirits_society/" src="https://cdn.greatwesternwine.co.uk/email/instagram.png" />
+    </mj-social>
+    <mj-image align="right" href="https://drinkaware.co.uk/" src="https://cdn.greatwesternwine.co.uk/email/drinkaware-logo-white.png" />
+  </mj-column>
+</mj-section>

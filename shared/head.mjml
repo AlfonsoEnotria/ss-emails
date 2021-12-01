@@ -1,0 +1,85 @@
+    <mj-title>Spirits Kiosk</mj-title>
+    <mj-font name="commuters-sans" href="https://use.typekit.net/rpt7csi.css" />
+    <mj-attributes>
+      <mj-all text-transform="none" font-family="commuters-sans, Arial, Helvetica, sans-serif" font-size="16px" line-height="1.2" color="#00504b" />
+      <mj-button text-transform="uppercase" background-color="#339191" color="#FFF" border-radius="0" padding="0 25px 10px" />
+      <mj-navbar-link padding="20px 20px" />
+      <mj-social padding="0" inner-padding="0 0 0 10px" icon-size="30px" align="right" border-radius="0" />
+      <mj-social-element color="#FFF" />
+      <mj-class name="hero-text" color="#FFF" font-family="commuter-sans" font-size="32px" />
+      <mj-class name="usp-row" background-color="#005e59" padding="0" />
+      <mj-class name="usp-row-block" text-transform="uppercase" color="#FFF" align="center" font-size="13px" />
+      <mj-class name="full-width" width="100%" />
+      <mj-class name="top" padding-top="0" margin-top="0" />
+      <mj-class name="link-button" background-color="transparent" color="#339191" inner-padding="0 0 5px" margin="0" align="left" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+    <mj-style inline="inline">
+      @media all and (max-width: 600px) {
+        .nav {
+          display: none;
+        }
+      }
+
+      a {
+        color: #657684;
+      }
+
+      .product-name a {
+        color: #435159;
+        text-decoration: none;
+      }
+
+      .price-was {
+        font-size: 12px;
+      }
+
+      .price-save {
+        color: #A53051;
+      }
+
+      .price {
+        font-weight: bold;
+        font-size: 22px;
+      }
+
+      .price-single {
+        padding: 5px 5px 5px 0;
+      }
+
+      .price-multibuy {
+        padding: 5px;
+        background: #339191;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: normal;
+        margin-top: 0;
+        text-transform: uppercase;
+        font-weight:600;
+        text-align:center;
+      }
+
+      .header-panel a {
+        text-decoration: none;
+      }
+
+      .header-panel h4,
+      .header-panel h3,
+      .header-panel h42,
+      .header-panel h1,
+      .header-panel p {
+        line-height: 1;
+        margin: 10px 0;
+      }
+
+      a.usp-row-link {
+        color: #FFF;
+        text-decoration: none
+      }
+
+      .hide_on_mobile { display: none !important;}
+    @media only screen and (min-width: 600px) { .hide_on_mobile { display: block !important;} }
+    </mj-style>

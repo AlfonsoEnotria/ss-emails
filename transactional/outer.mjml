@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-title>Spirits Kiosk</mj-title>
+    <mj-include path="./../shared/head.mjml" />
+    <mj-preview>You have a new message from Spirits Kiosk</mj-preview>
+  </mj-head>
+  <mj-body>
+
+    <mj-include path="./../shared/header.mjml" />
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+
+      
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./../shared/footer.mjml" />
+
+  </mj-body>
+</mjml>

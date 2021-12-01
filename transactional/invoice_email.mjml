@@ -1,0 +1,118 @@
+<mjml>
+  <mj-head>
+    <mj-title>Spirits Kiosk</mj-title>
+    <mj-include path="./../shared/head.mjml" />
+    <mj-preview>Your order number %%GLOBAL_OrderNumber%% has been received.</mj-preview>
+  </mj-head>
+  <mj-body>
+
+    <mj-include path="./../shared/header.mjml" />
+
+    <mj-section background-color="#FFF" padding-bottom="0">
+      <mj-column>
+        <mj-text padding-bottom="0">
+          <h1>Thanks!</h1>
+          <div>Your order number <strong>%%GLOBAL_OrderNumber%%</strong> has been received.</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF" padding-bottom="0">
+      <mj-column>
+        <mj-text padding-bottom="0">
+          <strong>Delivery</strong><br>%%GLOBAL_ShippingAddress%%%%GLOBAL_ShippingMethod%%
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding-bottom="0">
+          <strong>Billing</strong><br>%%GLOBAL_BillingAddress%%
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      %%GLOBAL_OrderCommentBlock%% %%GLOBAL_CartItemColumns%% %%SNIPPET_CartItems%% %%SNIPPET_TotalRows%% %%SNIPPET_PaymentMethod%%
+    </mj-raw>
+
+
+    <!-- REMOVE FROM HERE -->
+
+
+    <!-- %%GLOBAL_OrderComments%%-->
+    <mj-section background-color="#FFF" padding="0">
+      <mj-column>
+        <mj-text>
+          <strong>Gift message</strong><br>%%GLOBAL_OrderComments%%
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- %%GLOBAL_CartItemColumns%% -->
+    <mj-section background-color="#FFF" padding="0">
+      <mj-column>
+        <mj-table>
+          <thead>
+            <tr>
+              <th align="left">Product</th>
+              <th align="right" width="40px">Qty</th>
+              <th align="right" width="90px">Price</th>
+              <th align="right" width="100px">Total</th>
+            </tr>
+          </thead>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- %%SNIPPET_CartItems%% -->
+    <mj-section background-color="#FFF" padding="0">
+      <mj-column>
+        <mj-table>
+          <tbody>
+            <tr valign="top">
+              <td align="left">%%GLOBAL_ProductName%%</td>
+              <td align="right" width="40px">%%GLOBAL_ProductQuantity%%</td>
+              <td align="right" width="90px">%%GLOBAL_ProductPrice%%</td>
+              <td align="right" width="100px">%%GLOBAL_ProductTotal%%</td>
+            </tr>
+          </tbody>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- %%SNIPPET_TotalRows%% -->
+    <mj-section background-color="#FFF" padding="0">
+      <mj-column>
+        <mj-table>
+          <tbody>
+            <tr valign="top">
+              <td align="right">%%GLOBAL_label%%</td>
+              <td align="right" width="100px"><strong>%%GLOBAL_value%%</strong></td>
+            </tr>
+          </tbody>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- %%SNIPPET_PaymentMethod%% -->
+    <mj-section background-color="#FFF" padding="0">
+      <mj-column>
+        <mj-table>
+          <tbody>
+            <tr valign="top">
+              <td align="right">Paid by %%GLOBAL_PaymentProviderMethod%%</td>
+            </tr>
+          </tbody>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- REMOVE UP TO HERE -->
+        
+
+
+
+    <mj-include path="./../shared/footer.mjml" />
+
+  </mj-body>
+</mjml>

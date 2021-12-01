@@ -1,0 +1,15 @@
+<mj-section background-color="#FFFFFF" mj-class="header" css-class="header" padding="0">
+  <mj-column background-color="#FFFFFF">
+    <mj-image width="80px" src="https://bucket.mlcdn.com/a/3396/3396064/images/e4a4c14148b9fe98497498b67395c8a4bf4e1c0f.png" href="https://www.spiritssociety.com/" />
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0" padding-top="20px">
+  <mj-column background-color="#FFFFFF">
+    <mj-navbar base-url="https://www.spiritssociety.com/">
+      <mj-navbar-link href="" >London</mj-navbar-link>
+      <mj-navbar-link href="" >Melbourne</mj-navbar-link>
+      <mj-navbar-link href="" >La Piñata</mj-navbar-link>
+      <mj-navbar-link href="" >Digital Events</mj-navbar-link>
+    </mj-navbar>
+  </mj-column>
+</mj-section>

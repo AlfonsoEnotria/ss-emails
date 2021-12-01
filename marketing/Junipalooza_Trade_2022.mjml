@@ -1,0 +1,68 @@
+<mjml>
+  <mj-head>
+    <mj-title>Junipalooza & La Piñata are back</mj-title>
+    <mj-include path="./head.mjml" />
+    <mj-preview>Call out for exhibitors and trade passes </mj-preview>
+  </mj-head>
+  <mj-body>
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section background-color="#FFF">
+        <mj-column>
+            <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/772f8d748d127c7159de8cc5e711e08b745b5df5.jpeg" href="https://junipalooza-london-2022.eventbrite.co.uk" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text align="justify">
+          <p>The specialist Meet the Maker consumer events will take place at Tobacco Dock once more, with our Tequila & Mezcal show La Piñata set for Saturday 7th May and our Gin focussed Junipalooza on the 11th & 12th June. If you want to take part as a brand or attend as a trade guest – please get in touch!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+<mj-section background-color="#FFF" >
+        <mj-column>
+          <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/21292f64bdd66a5320b4c350e39f683f7ffb85e0.jpeg" href="https://junipalooza-london-2022.eventbrite.co.uk" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="justify" color="#000">
+            <p>Junipalooza is a meet the maker event where the biggest names of the category - responsible for some of the most iconic gins in the world are side by side with tiny one-man-band operations just starting their journey. There will be around 60 producers, and thousands of consumers tasting and buying away.</p>
+            <p>This year, expect to see a few big changes! Almost half of the exhibitors will be building their own spaces, bringing to life their brands in unique and immersive ways. Free to attend masterclasses will be back, as is a much bigger space for the famed Newcomers area.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="#FFF" direction="rtl">
+        <mj-column>
+          <mj-image src="https://bucket.mlcdn.com/a/3396/3396064/images/f513ca7a76afca35b434ec9ea672bdfbb8b942b1.png" href="https://la-pinata-2022.eventbrite.co.uk" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="justify" color="#000">
+            <p>Following a stellar inaugural event, La Piñata will return on the Cinco De Mayo weekend. Once more, we’re set to host dozens of producers who will be equipped with over 50 Tequilas and Mezcals between them. </p>
+            <p>In addition, there’s a bar serving up the very best Margarita's, Paloma's and Michelada's and new for 2022 is our Masterclass room. Great for those seeking more insight on the category, there will be talks and tutored tastings hosted by experts, delving into the specifics of certain styles, as well as panel discussions covering the hot topics impacting the category right now. </p>
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+    <mj-section background-color="#FFF">
+      <mj-column>
+        <mj-text align="justify">
+          <p>For a limited time only, we are offering free trade tickets for the <a href="https://la-pinata-2022.eventbrite.co.uk"><strong>Saturday AM</strong></a> session of La Pinata and the <a href="https://junipalooza-london-2022.eventbrite.co.uk"><strong>Sunday session</strong></a> of Junipalooza. Just RSVP below. Places for exhibitors are being booked in now, so if you have a brand and want to exhibit, please get in touch for more info.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+      <mj-section background-color="#FFF">
+        <mj-column>
+          <mj-button href="mailto:e.ward@enotriacoe.com?subject=RSVP Junipalooza and La Piñata 2022">RSVP</mj-button>
+        </mj-column>
+      </mj-section>
+
+
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,14 @@
+    <mj-section background-color="#00504b">
+      <mj-column width="70%">
+        <mj-text color="#FFF" font-size="12px" padding-top="0">Enotria Winecellars Ltd T/A Spirits Kiosk, 23 Cumberland Avenue, London, NW10 7RX<br>
+          <a href="tel:+442089615161" style="color:#FFFFFF; text-decoration:none;">020 8961 5161</a>&nbsp; | &nbsp;<a href="mailto:hello@spiritskiosk.com" style="color:#FFFFFF">hello@spiritskiosk.com</a></mj-text>
+      </mj-column>
+      <mj-column width="30%">
+        <mj-social align="right" padding="0 25px">
+          <mj-social-element name="facebook-noshare" background-color="#00504b" href="https://www.facebook.com/SpiritsKiosk/" src="https://cdn.greatwesternwine.co.uk/email/facebook.png" />
+          <mj-social-element name="twitter-noshare" background-color="#00504b" href="https://twitter.com/SpiritsKiosk/" src="https://cdn.greatwesternwine.co.uk/email/twitter.png" />
+          <mj-social-element name="instagram" background-color="#00504b" href="https://www.instagram.com/SpiritsKiosk/" src="https://cdn.greatwesternwine.co.uk/email/instagram.png" />
+        </mj-social>
+        <mj-image align="right"  href="https://drinkaware.co.uk/" src="https://cdn.greatwesternwine.co.uk/email/drinkaware-logo-white.png" />
+      </mj-column>
+    </mj-section>

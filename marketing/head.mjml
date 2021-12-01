@@ -1,0 +1,76 @@
+<mj-font name="commuters-sans" href="https://use.typekit.net/rpt7csi.css" />
+<mj-attributes>
+  <mj-all text-transform="none" font-family="commuters-sans, Arial, Helvetica, sans-serif" font-size="14px" line-height="1.2" color="#463255" />
+  <mj-button text-transform="uppercase" background-color="#339191" color="#FFF" border-radius="0" padding="0 25px 10px" />
+  <mj-navbar-link text-transform="uppercase" padding="2px 14px" />
+  <mj-social padding="0" inner-padding="0 0 0 10px" icon-size="30px" align="right" border-radius="0" />
+  <mj-social-element color="#FFF" />
+  <mj-section padding="14px 0 0 0" />
+  <mj-body background-color="#FFF" />
+  <mj-class name="link-button" background-color="transparent" color="#339191" inner-padding="0 0 5px" margin="0" align="left" />
+</mj-attributes>
+<mj-breakpoint width="600px" />
+<mj-style inline="inline">
+  @media all and (max-width: 600px) {
+    .nav {
+      display: none;
+    }
+  }
+
+  a {
+    color: #372346;
+  }
+
+  a.product-link {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .product small {
+    color: #666;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: normal;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .header {
+    padding-top: 0;
+  }
+
+  a.usp-row-link {
+    color: #FFF;
+    text-decoration: none
+  }
+
+
+  .hide_on_mobile {
+    display: none !important;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .hide_on_mobile {
+      display: block !important;
+    }
+  }
+</mj-style>
+<mj-style>
+  @media all and (max-width: 599px) {
+    .mobjustifytxt p {
+      text-align: justify;
+    }
+
+  }
+</mj-style>
